@@ -1,0 +1,6 @@
+Python 3.9 or lower for usage with PyQT5 (it only supports up to 3.9)
+Libraries:
+    Scikit-Learn = sklearn
+    Pandas
+    Seaborn
+    Matplotlib
