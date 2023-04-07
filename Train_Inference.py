@@ -64,17 +64,17 @@ class Ui_Train_Inference(object):
         self.lineEdit2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit2.setGeometry(QtCore.QRect(330, 400, 50, 31))
         self.lineEdit2.setFont(font1)
-        self.lineEdit2.setObjectName("lineEdit1")
+        self.lineEdit2.setObjectName("lineEdit2")
 
         self.lineEdit3 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit3.setGeometry(QtCore.QRect(430, 400, 50, 31))
         self.lineEdit3.setFont(font1)
-        self.lineEdit3.setObjectName("lineEdit2")
+        self.lineEdit3.setObjectName("lineEdit3")
 
         self.lineEdit4 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit4.setGeometry(QtCore.QRect(530, 400, 50, 31))
         self.lineEdit4.setFont(font1)
-        self.lineEdit4.setObjectName("lineEdit3")
+        self.lineEdit4.setObjectName("lineEdit4")
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
