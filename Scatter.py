@@ -9,29 +9,38 @@ class Ui_Scatter_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
+
         font = QtGui.QFont()
         font.setPointSize(12)
+
         MainWindow.setFont(font)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.comboBox_1 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_1.setGeometry(QtCore.QRect(210, 90, 171, 41))
+        self.comboBox_1.setGeometry(QtCore.QRect(210, 250, 171, 41))
+
         font = QtGui.QFont()
         font.setPointSize(15)
+
         self.comboBox_1.setFont(font)
         self.comboBox_1.setObjectName("comboBox_1")
+
         self.comboBox_2 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_2.setGeometry(QtCore.QRect(410, 90, 171, 41))
+        self.comboBox_2.setGeometry(QtCore.QRect(410, 250, 171, 41))
+
         font = QtGui.QFont()
         font.setPointSize(15)
+
         self.comboBox_2.setFont(font)
         self.comboBox_2.setObjectName("comboBox_2")
+
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(100, 20, 601, 41))
+        self.label.setGeometry(QtCore.QRect(100, 100, 601, 41))
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
+
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(130, 230, 551, 41))
+        self.label_2.setGeometry(QtCore.QRect(130, 400, 551, 41))
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
 
@@ -77,7 +86,7 @@ class Ui_Scatter_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Scatterplot Comparisons"))
         self.label.setText(_translate("MainWindow", "Use dropdowns to make selections of which variables to plot. \nYou need to select something in the left box first."))
-        self.label_2.setText(_translate("MainWindow", "The scatterplot is interactive. Click on it and drag it around to see everything."))
+        self.label_2.setText(_translate("MainWindow", "The scatterplot is interactive. Click on the crossed arrows\nin the bar at the top and drag it around to see everything."))
 
 
 if __name__ == "__main__":
