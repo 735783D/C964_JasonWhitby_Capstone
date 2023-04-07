@@ -97,4 +97,3 @@ if __name__ == "__main__":
     main.show()
 
     sys.exit(app.exec_())
-#test commit
